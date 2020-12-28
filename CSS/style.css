@@ -62,6 +62,7 @@ article > a:hover,
     font-size: 28px;
     width: 350px;
 }
+
 .recent::before {
     content: 'New ';
     color: #b10382;
