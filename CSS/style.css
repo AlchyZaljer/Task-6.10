@@ -62,15 +62,15 @@ article > a:hover,
     font-size: 28px;
     width: 350px;
 }
-
-.article-title::before {
-    content: 'new ';
+.new::before {
+    content: 'New ';
     color: #b10382;
     font-style: italic;
     vertical-align: super;
     font-size: 15px;
     font-family: 'Advent Pro', sans-serif;
 }
+
 
 .article-author {
     color: #947a8e;
