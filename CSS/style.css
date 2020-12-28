@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro:wght@100;200;300;400;500;600;700&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Advent Pro', sans-serif;
+    color: black;
+}
+
+header {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    background-image: url(https://images.unsplash.com/photo-1608061292877-81514a2acb21?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1217&q=80);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 100px;
+    color: #4d0039;
+    font-family: 'Cinzel', serif;
+    letter-spacing: 3mm;
+}
+
+.news {
+    width: 850px;
+    height: 310px;
+    margin: 20px auto;
+    padding-left: 30px;
+    border: 5px solid #4d0039;
+    position: relative;
+}
+
+.news:nth-child(2n+1) {
+    background-color: #b1038342;
+}
+
+article > a,
+.article-author > a,
+.article-description > a,
+.links > a {
+    text-decoration: none;
+    color: #4d0039;
+}
+
+article > a:hover,
+.article-author > a:hover,
+.article-description > a:hover,
+.links > a:hover {
+    text-decoration: underline;
+    color: #b10382;
+}
+
+.article-title {
+    font-family: 'Cinzel', serif;
+    font-size: 28px;
+    width: 350px;
+}
+
+.article-title::before {
+    content: 'new ';
+    color: #b10382;
+    font-style: italic;
+    vertical-align: super;
+    font-size: 15px;
+    font-family: 'Advent Pro', sans-serif;
+}
+
+.article-author {
+    color: #947a8e;
+    font-style: italic;
+}
+
+.article-author > a {
+    font-style: normal;
+}
+
+.article-img {
+    width: 400px;
+    height: auto;
+    position: absolute;
+    top: 20px;
+    left: 460px;
+}
+
+.article-description {
+    padding-top: 35px;
+    width: 350px;
+    line-height: 22px;
+    font-size: 18px;
+}
+
+.article-description > a {
+    font-style: italic;
+}
+
+footer {
+    margin-top: 100px;
+    height: 250px;
+    background-image: url(https://images.unsplash.com/photo-1608061292877-81514a2acb21?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1217&q=80);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+}
+
+.links {
+    padding-top: 55px;
+    font-size: 22px;
+    text-align: center;
+    letter-spacing: 1mm;
+}
+
+.links > a {
+    text-transform: uppercase;
+    padding-right: 120px;
+}
+
+.links > a:last-child {
+    padding-right: 0;
+}
+
+.copyright {
+    padding-top: 125px;
+    padding-right: 20px;
+    text-align: right;
+    color: #b10382;
+    font-size: 14px;
+}
+
